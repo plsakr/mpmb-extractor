@@ -1,0 +1,10 @@
+altgraph==0.17
+pdfminer==20191125
+pycryptodome==3.10.1
+pyinstaller==4.2
+pyinstaller-hooks-contrib==2021.1
+PyQt5==5.15.4
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.8.1
+PySide6==6.0.2
+shiboken6==6.0.2

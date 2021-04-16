@@ -1,9 +1,7 @@
 # This Python file uses the following encoding: utf-8
 import sys
-from collections import OrderedDict
 
 from PySide6.QtWidgets import QApplication, QWidget, QGridLayout, QLineEdit, QPushButton, QLabel, QFileDialog
-import PyPDF2 as pypdf
 import json
 
 from pdfminer.pdfparser import PDFParser
