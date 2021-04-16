@@ -70,6 +70,9 @@ Thumbs.db
 
 # Binaries
 # --------
+/dist
+/build
+*.spec
 *.dll
 *.exe
 
