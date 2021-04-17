@@ -1,5 +1,6 @@
 # This Python file uses the following encoding: utf-8
 import sys
+import os
 
 from PySide2.QtWidgets import QApplication, QWidget, QGridLayout, QLineEdit, QPushButton, QLabel, QFileDialog
 import json
@@ -157,7 +158,12 @@ class PdfExtractor(QWidget):
             fname = QFileDialog.getSaveFileName(self, 'Export to JSON', filter='JSON (*.json)')
 
             if fname[0] != '':
-                with open(fname[0], 'w') as f:
+                name, ext = os.path.splitext(fname[0])
+                if ext != '.json':
+                    p = fname[0]+'.json'
+                else:
+                    p = fname[0]
+                with open(p, 'w') as f:
                     json.dump(data, f, indent=4)
 
 
