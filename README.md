@@ -19,7 +19,7 @@ everything _should_ work correctly.
   
 Now, to use the program, follow the following steps as closely as possible:
 
-1. Download the tool from the [releases] page. Make sure you choose the version corresponding to your operating system.
+1. Download the tool from the [releases](https://github.com/plsakr/mpmb-extractor/releases) page. Make sure you choose the version corresponding to your operating system.
 2. Run the tool. A UI with a lot of empty fields should pop up. Don't worry, if the tool is able to extract the PDF data
 correctly, you shouldn't need to fill out any information by hand.
 3. Click the browse button at the top and select your Character Sheet's PDF file.
