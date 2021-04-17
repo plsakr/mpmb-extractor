@@ -1,7 +1,7 @@
 # This Python file uses the following encoding: utf-8
 import sys
 
-from PySide6.QtWidgets import QApplication, QWidget, QGridLayout, QLineEdit, QPushButton, QLabel, QFileDialog
+from PySide2.QtWidgets import QApplication, QWidget, QGridLayout, QLineEdit, QPushButton, QLabel, QFileDialog
 import json
 
 from pdfminer.pdfparser import PDFParser
