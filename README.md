@@ -1,4 +1,6 @@
-# MPMB PDF Data Extractor
+# MPMB PDF Data Extractor -- (DEPRECATED)
+
+__*This tool has been deprecated and will no longer be developed. The code will remain here for archival and educational purposes.*__
 
 This tool extracts the fields from an MPMB D&D Character Sheet to be used with other applications including
 [this bot](https://github.com/plsakr/dnd-bot).
